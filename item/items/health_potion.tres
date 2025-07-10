@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="ItemDataConsumable" load_steps=4 format=3 uid="uid://cor1qg8c64sfm"]
+
+[ext_resource type="Script" uid="uid://cad3ln14ymj1r" path="res://item/item_data_consumable.gd" id="1_810tu"]
+[ext_resource type="Texture2D" uid="uid://dlv01cikcf5ux" path="res://item/#1 - Transparent Icons.png" id="2_1jjx4"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_a81j0"]
+atlas = ExtResource("2_1jjx4")
+region = Rect2(0, 288, 32, 32)
+
+[resource]
+script = ExtResource("1_810tu")
+heal_value = 1
+name = "Health Potion"
+description = "Huele a frutilla"
+stackable = true
+texture = SubResource("AtlasTexture_a81j0")
+metadata/_custom_type_script = "uid://cad3ln14ymj1r"

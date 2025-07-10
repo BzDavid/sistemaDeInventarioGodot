@@ -1,0 +1,5 @@
+res://main.tscn
+res://item/items/health_potion.tres
+res://item/items/apple.tres
+res://item/items/iron_helm.tres
+res://test_inv.tres

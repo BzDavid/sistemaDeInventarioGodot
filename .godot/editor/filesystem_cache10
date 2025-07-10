@@ -1,0 +1,43 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1752116548
+icon.svg::CompressedTexture2D::7557936602069158479::1752116328::1752116568::1::::<><><>0<>0<>a945493de7c864ba4f96050d709b395d<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
+inventory_interface.gd::GDScript::9060279477874631266::1752116328::0::1::::<>Control<><>0<>0<><>::
+main.gd::GDScript::4785543484524711989::1752116328::0::1::::<>Node<><>0<>0<><>::
+main.tscn::PackedScene::15622903904899465::1752116328::0::1::::<><><>0<>0<><>::uid://o3xlpnn0p5jc::::res://player/player.tscn<>uid://cagfg4r64utkf::::res://main.gd<>uid://cafk8kq5sd4bj::::res://Inventory/inventory.tscn<>res://Interactible/environment.tscn<>uid://fmixtro1fw35::::res://test_inv.tres<>uid://bcbbxn13vsa04::::res://Inventory/inventory_interface.gd<>uid://bljhe1c2w1b05::::res://Inventory/inventory_data_equip.gd<>uid://b8divgs3bbhau::::res://Inventory/slot.tscn<>uid://lw4n16p1k01c::::res://Interactible/chest.tscn<>uid://7bhqpxe52gh2::::res://Inventory/hot_bar_inventory.tscn<>uid://bvc24gsph445s::::res://Inventory/inventory_data.gd<>uid://ck5ypg4lwv2hm::::res://Inventory/hot_bar_inventory.gd<>uid://lk3uo1h4ww3n::::res://Inventory/slot_data.gd<>uid://bjflc28v6fiv5::::res://item/items/book.tres<>uid://bgixhf8w3r8rq::::res://item/pick_up/pick_up.tscn<>uid://caddf5vymcjk7::::res://item/items/apple.tres
+test_inv.tres::Resource/InventoryData::376244585317214966::1752116329::0::1::::<><><>0<>0<><>::uid://bvc24gsph445s::::res://Inventory/inventory_data.gd<>uid://lk3uo1h4ww3n::::res://Inventory/slot_data.gd<>uid://cor1qg8c64sfm::::res://item/items/health_potion.tres<>uid://caddf5vymcjk7::::res://item/items/apple.tres<>uid://bjflc28v6fiv5::::res://item/items/book.tres<>uid://2a0c27jg2xmm::::res://item/items/iron_helm.tres
+::res://Interactible/::1752116328
+chest.gd::GDScript::4427425641916188195::1752116328::0::1::::<>StaticBody3D<><>0<>0<><>::
+chest.tscn::PackedScene::819279012931401962::1752116328::0::1::::<><><>0<>0<><>::uid://b4cxb22qm8s7t::::res://Interactible/chest.gd
+Environment.glb::PackedScene::5486801600134382820::1752116328::1752116572::1::::<><><>0<>0<>b15ed02ff998e7fa6f76d4959d5d1aa2<>res://.godot/imported/Environment.glb-d22cee30ae39efce4d208ac125eddf4e.scn::
+environment.tscn::PackedScene::7655503968972788072::1752116328::0::1::::<><><>0<>0<><>::uid://ckf3250w8jpro::::res://Interactible/Environment.glb
+::res://inventario2-main/::1752116328
+::res://Inventory/::1752116328
+hot_bar_inventory.gd::GDScript::5538145491592762638::1752116328::0::1::::<>PanelContainer<><>0<>0<><>::
+hot_bar_inventory.tscn::PackedScene::2248561789426593561::1752116328::0::1::::<><><>0<>0<><>::
+inventory.gd::GDScript::6047320727850314723::1752116328::0::1::::<>PanelContainer<><>0<>0<><>::
+inventory.tscn::PackedScene::4783829908620667543::1752116328::0::1::::<><><>0<>0<><>::uid://csfmqvejljkml::::res://Inventory/inventory.gd
+inventory_data.gd::GDScript::3866206646066477626::1752116328::0::1::::InventoryData<>Resource<><>0<>0<><>::
+inventory_data_equip.gd::GDScript::3177510895576872452::1752116328::0::1::::InventoryDataEquip<>InventoryData<><>0<>0<><>::
+inventory_interface.gd::GDScript::2528965263245234639::1752116328::0::1::::<>Control<><>0<>0<><>::
+slot.gd::GDScript::4217548264416192903::1752116328::0::1::::<>PanelContainer<><>0<>0<><>::
+slot.tscn::PackedScene::4709369238844639560::1752116328::0::1::::<><><>0<>0<><>::uid://b1danyx7e3tn8::::res://Inventory/slot.gd
+slot_data.gd::GDScript::794457625084022525::1752116328::0::1::::SlotData<>Resource<><>0<>0<><>::
+::res://item/::1752116328
+#1 - Transparent Icons.png::CompressedTexture2D::7976255737255998015::1752116328::1752116567::1::::<><><>0<>0<>45c8d46762f144e4316e1853d8582f81<>res://.godot/imported/#1 - Transparent Icons.png-cfb162c63d075773953986fd2d2afadb.ctex::
+item_atlas2.tres::AtlasTexture::4484670263939283083::1752116328::0::1::::<><><>0<>0<><>::
+item_atlas.tres::AtlasTexture::8098603345452709697::1752116328::0::1::::<><><>0<>0<><>::uid://dlv01cikcf5ux::::res://item/#1 - Transparent Icons.png
+item_data.gd::GDScript::5825773719264485288::1752116328::0::1::::ItemData<>Resource<><>0<>0<><>::
+item_data_consumable.gd::GDScript::4780754944497445289::1752116328::0::1::::ItemDataConsumable<>ItemData<><>0<>0<><>::
+::res://item/items/::1752116328
+apple.tres::Resource/ItemData::4779227189844177960::1752116328::0::1::::<><><>0<>0<><>::uid://cpabv3ff3pprs::::res://item/item_data.gd<>uid://dlv01cikcf5ux::::res://item/#1 - Transparent Icons.png
+book.tres::Resource/ItemData::3029115093818708736::1752116328::0::1::::<><><>0<>0<><>::uid://cpabv3ff3pprs::::res://item/item_data.gd<>uid://dnna2w3xuus62::::res://item/item_atlas.tres
+health_potion.tres::Resource/ItemDataConsumable::5792187180904182742::1752116328::0::1::::<><><>0<>0<><>::uid://cad3ln14ymj1r::::res://item/item_data_consumable.gd<>uid://dlv01cikcf5ux::::res://item/#1 - Transparent Icons.png
+iron_helm.tres::Resource/ItemDataEquip::1896621742616066008::1752116328::0::1::::<><><>0<>0<><>::uid://1imfkrw2iiq4::::res://item/items/item_data_equip.gd<>uid://dlv01cikcf5ux::::res://item/#1 - Transparent Icons.png
+item_data_equip.gd::GDScript::1842163042035203405::1752116328::0::1::::ItemDataEquip<>ItemData<><>0<>0<><>::
+::res://item/pick_up/::1752116328
+pick_up.gd::GDScript::3153034795043661307::1752116328::0::1::::<>RigidBody3D<><>0<>0<><>::
+pick_up.tscn::PackedScene::2825478073577736606::1752116328::0::1::::<><><>0<>0<><>::uid://dnna2w3xuus62::::res://item/item_atlas.tres<>uid://bk6ma052t4lkd::::res://item/pick_up/pick_up.gd<>uid://bjflc28v6fiv5::::res://item/items/book.tres<>uid://lk3uo1h4ww3n::::res://Inventory/slot_data.gd
+::res://player/::1752116329
+player.gd::GDScript::5931233077666191108::1752116328::0::1::::<>CharacterBody3D<><>0<>0<><>::
+player.tscn::PackedScene::1041863331170112660::1752116329::0::1::::<><><>0<>0<><>::uid://cqreso2vaisim::::res://player/player.gd
+player_manager.gd::GDScript::3200040304854524577::1752116329::0::1::::<>Node<><>0<>0<><>::
