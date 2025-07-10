@@ -1,9 +1,9 @@
-[gd_scene load_steps=25 format=3 uid="uid://htko3fmf4lx"]
+[gd_scene load_steps=26 format=3 uid="uid://htko3fmf4lx"]
 
 [ext_resource type="PackedScene" uid="uid://o3xlpnn0p5jc" path="res://player/player.tscn" id="1_ig7tw"]
 [ext_resource type="Script" uid="uid://cagfg4r64utkf" path="res://main.gd" id="1_lquwl"]
 [ext_resource type="PackedScene" uid="uid://cafk8kq5sd4bj" path="res://Inventory/inventory.tscn" id="2_0xm2m"]
-[ext_resource type="PackedScene" uid="uid://dhcnbc4ihkjf1" path="res://Interactible/environment.tscn" id="2_2cqfq"]
+[ext_resource type="PackedScene" uid="uid://b2k16ys18ky6m" path="res://environment.tscn" id="2_2cqfq"]
 [ext_resource type="Resource" uid="uid://fmixtro1fw35" path="res://test_inv.tres" id="3_7mycd"]
 [ext_resource type="Script" uid="uid://bcbbxn13vsa04" path="res://Inventory/inventory_interface.gd" id="4_272bh"]
 [ext_resource type="Script" uid="uid://bljhe1c2w1b05" path="res://Inventory/inventory_data_equip.gd" id="4_vivmo"]
@@ -28,6 +28,9 @@ sky_material = SubResource("ProceduralSkyMaterial_7dm0k")
 background_mode = 2
 sky = SubResource("Sky_ig7tw")
 tonemap_mode = 2
+
+[sub_resource type="PlaneMesh" id="PlaneMesh_h2yge"]
+size = Vector2(20, 20)
 
 [sub_resource type="ConcavePolygonShape3D" id="ConcavePolygonShape3D_1bvp3"]
 data = PackedVector3Array(10, 0, 10, -10, 0, 10, 10, 0, -10, -10, 0, 10, -10, 0, -10, 10, 0, -10)
@@ -65,6 +68,7 @@ transform = Transform3D(-0.866025, -0.433013, 0.25, 0, 0.5, 0.866025, -0.5, 0.75
 shadow_enabled = true
 
 [node name="Ground" type="MeshInstance3D" parent="."]
+mesh = SubResource("PlaneMesh_h2yge")
 
 [node name="Environment" parent="Ground" instance=ExtResource("2_2cqfq")]
 

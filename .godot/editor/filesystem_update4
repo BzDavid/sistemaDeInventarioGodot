@@ -3,3 +3,13 @@ res://item/items/health_potion.tres
 res://item/items/apple.tres
 res://item/items/iron_helm.tres
 res://test_inv.tres
+res://Inventory/slot.tscn
+res://Inventory/slot_data.gd
+res://Inventory/inventory_data.gd
+res://Inventory/slot.gd
+res://inventory_interface.gd
+res://README.md
+res://Inventory/inventory.tscn
+res://Interactible/environment.tscn
+res://Interactible/chest.tscn
+res://Inventory/hot_bar_inventory.tscn
